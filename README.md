@@ -29,6 +29,13 @@ Some pointers & general information:
 
 Running an attack: ```python3 label_flipping_attack.py```
 
+{
+This is the part of our project, 
+I have changed the server.py file which was the main file used in previous repo to server_basic.py file, so the file I have modified is server.py which will be used in this project.
+The defense models used are in federated_learning/aggregators.py file 
+For getting the results, you have to run the label_flipping_attack.py file 
+}
+
 ### Experiments - Attack Timing in Label Flipping Attacks
 
 Running an attack: ```python3 attack_timing.py```
