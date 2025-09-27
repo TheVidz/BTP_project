@@ -16,6 +16,10 @@ class Arguments:
     def __init__(self, logger):
         self.logger = logger
 
+
+        self.aggregator = "some_mean"   
+        self.z_threshold = 2.0       
+
         self.batch_size = 10
         self.test_batch_size = 1000
         self.epochs = 10
@@ -40,7 +44,7 @@ class Arguments:
         self.epoch_save_end_suffix = "end"
 
         self.num_workers = 50
-        self.num_poisoned_workers = 0
+        self.num_poisoned_workers = 5
 
         #self.net = Cifar10CNN
         self.net = FashionMNISTCNN

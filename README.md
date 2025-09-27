@@ -2,7 +2,7 @@
 
 Code for the ESORICS 2020 paper: Data Poisoning Attacks Against Federated Learning Systems
 
-## Installation
+## Installation 
 
 1) Create a virtualenv (Python 3.7)
 2) Install dependencies inside of virtualenv (```pip install -r requirements.pip```)
