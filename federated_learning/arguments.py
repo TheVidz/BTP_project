@@ -22,7 +22,7 @@ class Arguments:
 
         self.batch_size = 10
         self.test_batch_size = 1000
-        self.epochs = 10
+        self.epochs = 50
         self.lr = 0.01
         self.momentum = 0.5
         self.cuda = True

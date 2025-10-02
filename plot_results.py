@@ -8,7 +8,7 @@ strategies = {
     # '3002' : '20 attackers strategy:mean',
     # '3003' : '20 attackers strategy:median',
     # '3004' : '10 attackers strategy: krum',
-    '3005' : '10 attackers strategy: trimmed mean'
+    '3007' : '10 attackers strategy: trimmed'
 }
 
 # --- Data Extraction ---
